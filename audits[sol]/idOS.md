@@ -1,3 +1,5 @@
+reported at 2026/05/22
+
 ## [M-1][Duplicated] Slash front-running lets stakers escape node slashing
 
 ### Summary

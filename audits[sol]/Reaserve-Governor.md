@@ -1,3 +1,5 @@
+reported at 2026/05/07
+
 ## [M-1] Third parties can dilute optimistic veto thresholds by inflating vault share supply before the veto snapshot
 
 ### Summary

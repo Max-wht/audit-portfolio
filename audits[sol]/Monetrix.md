@@ -1,3 +1,5 @@
+reported at 2026/05/04
+
 ## [L-1]: Inconsistent token width can duplicate supplied-asset accounting
 
 `supplyToBlp(uint64 token, ...)` and `addMultisigSupplyToken(uint64 spotToken)` accept 64-bit token ids, but whitelist checks and backing reads cast them to `uint32`. Different `uint64` values with the same low 32 bits can therefore be registered as distinct supplied entries while being valued as the same whitelisted token, potentially double-counting backing in `totalBackingSigned()`. This is Operator-gated, but should be normalized defensively.

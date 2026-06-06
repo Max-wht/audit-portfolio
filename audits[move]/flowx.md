@@ -1,3 +1,5 @@
+reported at 2026/05/25
+
 ## [Info-1] pool::swap() uses the exact-in flag to select protocol fee rate, causing protocol and LP fee misallocation
 
 ### Summary

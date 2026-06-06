@@ -1,3 +1,5 @@
+reported at 2026/03/25
+
 ## L-01: CoW settlement path allows dust-level partial executions, creating order churn and operational overhead
 
 **Severity**: Low
