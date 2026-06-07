@@ -1,3 +1,5 @@
+reported at 2026/04/02
+
 ## [M-1] `LPPlugin::deposit()` keeps unconsumed user funds on the plugin instead of refunding
 
 ### Summary
